@@ -39,5 +39,10 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 gem 'pry', group: [:development, :test]
 
+gem 'rabl'
+
 gem 'foundation-rails'
 gem 'haml-rails'
+
+gem 'ember-rails'
+gem 'ember-source'
