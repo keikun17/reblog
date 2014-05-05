@@ -1,0 +1,5 @@
+h1 This is a post template
+
+= each post in controller
+  h2= post.title
+  | {{{post.body}}}
