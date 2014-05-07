@@ -3,7 +3,7 @@
 
 = each post in controller
   .row
-    h3
-      link-to 'posts'
-        post.title
-    | {{{post.body}}}
+   h3
+     = link-to 'posts.post' post
+       = post.title
+   p= post.body
